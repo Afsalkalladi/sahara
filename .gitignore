@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+media/
+staticfiles/
+
+# Environments
+.env
+.env.*
+.venv/
+venv/
+ENV/
+env/
+ENV.bak/
+env.bak/
+*.envrc
+Pipfile
+Pipfile.lock
+requirements.txt
+requirements-dev.txt
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Docker
+*.pid
+
+# Migrations
+**/migrations/*
+!**/migrations/__init__.py
+
+# Node
+node_modules/
+
+# Coverage
+htmlcov/
+.coverage
+.tox/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Backup
+*.bak
+
+# Other
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# System
+Thumbs.db
